@@ -7,12 +7,14 @@ switch (PROJECT_STATUS) {
 	case 'production': {
 		ini_set('display_errors','Off');
 		// and more....
+        break;
 	}
 	default :
 		//test environment
 	{
 		ini_set('display_errors','1');
 		ini_set('error_reporting', E_ALL);
+        ini_set('date.timezone', 'Europe/Amsterdam');
 	}
 }
 

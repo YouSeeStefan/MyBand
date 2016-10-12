@@ -18,10 +18,31 @@ $templateParser->assign('title', 'Me First And The Gimme Gimmes');
 $templateParser->display('head.tpl');
 
 // Get newsarticles from database
-include('model/select_newsarticles.php');
 
-// Show newsarticles 'old style' => refactor to template system.
-include('views/newsarticles.php');
+
+$action = isset($_GET['action'])?$_GET['action']:'about';
+
+switch($action) {
+    case 'home':
+
+            include('model/select_newsarticles.php');
+            $templateParser->assign('result', $result);
+            $templateParser->display('newsarticles.tpl');
+            break;
+        
+    case 'about':
+        
+        $templateParser->display('about.tpl');
+        break;
+        
+    case 'schema':
+        
+        $templateParser->display('schema.tpl');
+        break;
+        
+    case 'contact':
+        
+        $templateParser->display('contact.tpl');
+}
 
 $templateParser->display('footer.tpl');
-

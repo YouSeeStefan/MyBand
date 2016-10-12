@@ -3,8 +3,14 @@
  *
  */
 
+/*
+* {
+    padding: 0;
+    margin: 0;
+}
+*/
+
 body {
-	
 
 }
 
@@ -17,4 +23,9 @@ body {
 	margin-top: -20px;
 	width: 200px;
 		
+}
+
+footer {
+    background-color: indianred;
+    color: white;
 }
