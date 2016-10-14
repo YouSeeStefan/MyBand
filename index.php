@@ -20,7 +20,7 @@ $templateParser->display('head.tpl');
 // Get newsarticles from database
 
 
-$action = isset($_GET['action'])?$_GET['action']:'about';
+$action = isset($_GET['action'])?$_GET['action']:'home';
 
 switch($action) {
     case 'home':
@@ -32,12 +32,16 @@ switch($action) {
         
     case 'about':
         
+        include('model/select_about.php');
+        $templateParser->assign('aboutContent', $aboutContent);
         $templateParser->display('about.tpl');
         break;
         
-    case 'schema':
+    case 'schedule':
         
-        $templateParser->display('schema.tpl');
+        include('model/select_schedule.php');
+        $templateParser->assign('scheduleContent', $scheduleContent);
+        $templateParser->display('schedule.tpl');
         break;
         
     case 'contact':

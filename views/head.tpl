@@ -14,7 +14,7 @@
         <ul>
             <li><a href="?action=home">Home</a></li>
             <li><a href="?action=about">About</a></li>
-            <li><a href="?action=schema">Schema</a></li>
+            <li><a href="?action=schedule">Schema</a></li>
             <li><a href="?action=contact">Contact</a></li>
         </ul>
     </header>
