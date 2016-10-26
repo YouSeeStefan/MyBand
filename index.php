@@ -47,6 +47,7 @@ switch($action) {
     case 'contact':
         
         $templateParser->display('contact.tpl');
+
 }
 
 $templateParser->display('footer.tpl');
