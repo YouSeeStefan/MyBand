@@ -4,7 +4,7 @@
         <div class="content"><br>
             <b class="day_size">{$oneItoneItemSchedule.title}</b><br>
             <a class="date_size">{$oneItoneItemSchedule.date|date_format:"%e, %B. %Y"}</a>
-            <p><content>{$oneItoneItemSchedule.content|truncate:30}</content></p>
+            <p><content>{$oneItoneItemSchedule.content}</content></p>
         </div><br>
         </article>{/foreach}
     </section>

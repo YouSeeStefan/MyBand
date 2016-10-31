@@ -1,6 +1,6 @@
 <?php
 
-function convert($DBResult){
+function convertResultToArray($DBResult){
     $resultArray = array();
     
     while($row = $DBResult->fetch_assoc()){

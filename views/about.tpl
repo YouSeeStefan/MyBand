@@ -3,8 +3,13 @@
         <article>
         <div class="content"><br>
             {foreach from=$aboutContent item=oneItemAbout}
-            	<h1>{$oneItemAbout.title}</h1>
-                <img src="img/{$oneItemAbout.image}">
+                <b style="font-size: 22px;">{$oneItemAbout.title}</b><br>
+                <a class="date_size">{$oneItemAbout.date|date_format:"%e, %B. %Y"}</a><br><br>
+                <div id="trainers">
+                    <img class="img-trainer top" src="img/{$oneItemAbout.image}" alt="">
+                    <img class="img-trainer top" src="img/{$oneItemAbout.image_2}" alt="">
+                    <img class="img-trainer top" src="img/{$oneItemAbout.image_3}" alt="">
+                </div>
                 <br><br>
                 <content>{$oneItemAbout.content}</content><br><br>
                 <content class="content_bold">{$oneItemAbout.content_2}</content><br>

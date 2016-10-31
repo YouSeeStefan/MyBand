@@ -2,4 +2,4 @@
 
 $aboutContent = $mysqli->query("SELECT * FROM about");
 
-$aboutContent = convert($aboutContent);
+$aboutContent = convertResultToArray($aboutContent);

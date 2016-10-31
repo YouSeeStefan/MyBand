@@ -2,4 +2,4 @@
 
 $scheduleContent = $mysqli->query("SELECT * FROM schedule");
 
-$scheduleContent = convert($scheduleContent);
+$scheduleContent = convertResultToArray($scheduleContent);
