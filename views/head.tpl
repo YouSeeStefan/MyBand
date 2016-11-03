@@ -23,7 +23,7 @@
     <nav>
         <ul>
             <a href="?action=home"><li>Home</li></a></li>
-            <a href="?action=about"><li>About</li></a>
+            <a href="?action=about"><li>Over ons</li></a>
             <a href="?action=schedule"><li>Schema</li></a>
             <a href="?action=contact"><li>Contact</li></a>
         </ul>
