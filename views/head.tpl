@@ -12,6 +12,8 @@
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
+        <link rel="alternate" type="application/rss+xml" href="http://21281.hosts.ma-cloud.nl" title="Personal Trainer"> 
+
     </head>
     <body>
     <header>

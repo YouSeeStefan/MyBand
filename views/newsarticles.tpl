@@ -32,7 +32,7 @@
         <article>
             <div class="content">
                 <form>
-                    <input type="type" placeholder="Zoeken..." onkeyup="showUser(this.value)">
+                    <input type="type" autofocus="" placeholder="Zoeken..." onkeyup="showUser(this.value)">
                 </form>
                 <div id="txtHint"></div>
             </div>

@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2016-10-31 13:58:19
+<?php /* Smarty version Smarty-3.1.18, created on 2016-11-03 13:16:20
          compiled from "views\newsarticles.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:1142757f4f9a5444fb2-38634840%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'd2104d91d134b1ddf013f0f614b9454791a8acef' => 
     array (
       0 => 'views\\newsarticles.tpl',
-      1 => 1477918672,
+      1 => 1477998911,
       2 => 'file',
     ),
   ),
@@ -61,7 +61,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
         <article>
             <div class="content">
                 <form>
-                    <input type="type" placeholder="Zoeken..." onkeyup="showUser(this.value)">
+                    <input type="type" autofocus="" placeholder="Zoeken..." onkeyup="showUser(this.value)">
                 </form>
                 <div id="txtHint"></div>
             </div>

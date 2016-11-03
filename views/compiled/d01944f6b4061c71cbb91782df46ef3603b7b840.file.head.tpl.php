@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2016-10-31 13:43:38
+<?php /* Smarty version Smarty-3.1.18, created on 2016-11-03 13:16:20
          compiled from "views\head.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:1711657e4f5509b6103-51375259%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'd01944f6b4061c71cbb91782df46ef3603b7b840' => 
     array (
       0 => 'views\\head.tpl',
-      1 => 1477917421,
+      1 => 1477997331,
       2 => 'file',
     ),
   ),
@@ -37,6 +37,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
         <link rel="stylesheet" href="css/main.css">
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+        <link rel="alternate" type="application/rss+xml" href="http://21281.hosts.ma-cloud.nl" title="Personal Trainer"> 
 
     </head>
     <body>

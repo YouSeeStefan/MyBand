@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2016-10-18 16:17:27
+<?php /* Smarty version Smarty-3.1.18, created on 2016-11-03 13:16:20
          compiled from "views\footer.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:2414457ebd09a1896b2-59858756%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '24e7cbb65a777107f8d697e5e9a99f75880e673e' => 
     array (
       0 => 'views\\footer.tpl',
-      1 => 1476800137,
+      1 => 1477995963,
       2 => 'file',
     ),
   ),
@@ -34,7 +34,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     <p class="note_footer"><b>Note: </b>Belangrijk: deze site geeft geen medisch advies. Wanneer u gezondheidsklachten heeft raden wij u te alle tijde aan contact op te nemen met uw huisarts (of eventueel specialist)!</p>
 
     <!-- Hidden livestream youtube music -->
-    <iframe hidden width="560" height="315" src="https://www.youtube.com/embed/dxVzsVFAw34?rel=0&autoplay=1" frameborder="0" notallawfullscreen></iframe>  
+    <!-- <iframe hidden width="560" height="315" src="https://www.youtube.com/embed/dxVzsVFAw34?rel=0&autoplay=1" frameborder="0" notallawfullscreen></iframe>  --> 
 </footer>
 </body>
 </html><?php }} ?>

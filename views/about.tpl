@@ -15,6 +15,7 @@
                 <content class="content_bold">{$oneItemAbout.content_2}</content><br>
                 <content>{$oneItemAbout.content_3}</content><br>
                 <content class="content_bold">{$oneItemAbout.content_4}</content>
+                <p>{$oneItemAbout.content_5}</p>
             {/foreach}<br>
         </div>
         </article>
